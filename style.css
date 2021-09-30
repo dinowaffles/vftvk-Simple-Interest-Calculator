@@ -1,12 +1,14 @@
 body {
     background-color:black;
     font-family:arial;
-    color:white
+    color:white;
+    font-size: 14px;
 }
 
 h1 {
     color:grey;
     font-family: verdana;
+    font-size: 20px;
 }
 
 .maindiv {
@@ -16,6 +18,16 @@ h1 {
     padding: 20px;
     border-radius: 25px;
     text-align: center;
+}
+
+#formdiv {
+  padding-left: 18px;
+  text-align: left;
+  line-height: 175%;
+}
+
+footer {
+  font-size: 14px;
 }
 
 
