@@ -12,7 +12,7 @@
     <div class="maindiv">
         <h1>Simple Interest Calculator</h1>
         <div id="formdiv">
-        Amount <input type="number"  id="principal">  <br/>
+        Amount <input type="number"  id="principal" onchange="checkValue()">  <br/>
         Rate <input type="range" id="rate" min="1" max="20" step="0.25" value="10.25" onchange="updateRate()">
         <span id="rate_val">10.25%</span>
         </span>  <br/>
