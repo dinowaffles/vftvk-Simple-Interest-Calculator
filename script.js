@@ -1,6 +1,12 @@
+function compute() {
+    p = document.getElementById("principal").value;
+}
+
 const principal = document.getElementById("principal").value;
+
 const rate = document.getElementById("rate").value;
-const years = document.getElementById("years").value;
+
+let years = document.getElementById("years").value;
 
 let interest = principal * years * rate /100;
 
@@ -11,8 +17,6 @@ function updateRate() {
     document.getElementById("rate_val").innerText=rateval;
 }
 
-function compute() {
-    p = document.getElementById("principal").value;
-}
 
+document.getElementById("result").innerHTML = `If you deposit ${principal}, at an interest rate of ${rate}. You will receive an amount of ${interest} in the year ${year}.`;
         
